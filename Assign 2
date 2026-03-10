@@ -1,0 +1,30 @@
+function greetUser(name, greeting = "Heyy") {
+    return greeting + " " + name;
+}
+
+
+Example
+console.log(greetUser("Sohrab"));         
+// Output: Heyy Sohrab
+
+console.log(greetUser("Sohrab", "Hello")); 
+// Output: Hello Sohrab
+
+
+Approach:
+
+(Logic)
+
+Create a function named greetUser.
+
+The function should take two parameters:
+
+name
+
+greeting (set this as a default parameter, e.g., "Heyy").
+
+If the user does not provide a greeting, the function will use the default greeting.
+
+Combine the greeting and name to create a message.
+
+Return the greeting message.
